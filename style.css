@@ -1,0 +1,36 @@
+body{
+	background: url("img/back.jpg") ;
+	background-size: cover;
+
+}
+
+.main{
+	height: 90%;
+	margin: auto;
+}
+
+.main img{
+width: 7em;	
+}
+
+.main .img{
+	margin: auto;
+	width: 20%;
+}
+
+.footer{
+	background-color: black;
+	opacity: 0.5;
+	height: 80px;
+	margin-bottom: 0px;
+}
+
+
+
+.rotate{
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
