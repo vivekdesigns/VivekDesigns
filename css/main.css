@@ -707,7 +707,7 @@ h1, h2, h3, h4, h5, h6, p {
    ========================================================================== */
 
 #footer {
-    background-color: ##181818;
+    background-color: #181818;
     color: #515151;
     font-family: 'Lato';
     font-weight: 300;
@@ -820,10 +820,6 @@ h1, h2, h3, h4, h5, h6, p {
        -moz-transition: color 0.3s ease;
          -o-transition: color 0.3s ease;
             transition: color 0.3s ease;
-}
-
-.bold{
-    font-weight: bold;
 }
 
 /* ==========================================================================
