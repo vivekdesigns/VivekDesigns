@@ -406,7 +406,13 @@ h1, h2, h3, h4, h5, h6, p {
 .services-content p,
 .work-content p,
 .contact-content p,
-
+.footer p {
+    font-size: 1.125rem;
+    font-size: 18px;
+    line-height: 2.25rem;
+    line-height: 36px;
+    color: #666;
+}
 
 /* ==========================================================================
    Home
@@ -707,30 +713,105 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 300;
 }
 
-#footer img{
-    width: 3.8%;
-    padding-top: 42px;
+.footer-content p{
+    font-size: 1em;
 }
 
 #footer .heart {
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
-    color: #2A2A2A;
+    color: #ffffff;
     padding: 0;
     margin: 0;
     padding-top: 56px;
-    padding-right: 7px;
 }
 
+.pulse2 {
+    -webkit-animation: pulse2 1s linear infinite;
+    -moz-animation: pulse2 1s linear infinite;
+    -ms-animation: pulse2 1s linear infinite;
+    animation: pulse2 1s linear infinite;
+}
+
+@keyframes "pulse2" {
+ 0% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pulse2 {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pulse2" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pulse2" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+ }
 
 .f1 {
     text-align: center;
 }
 
 #footer p {
-    padding: 0px 0;
+    padding: 24px 0;
     font-weight: 400;
-    color: #3C3C3C;
 }
 
 #footer a {
