@@ -737,8 +737,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #footer p {
-    padding: 24px 0;
+    padding: 0px 0;
     font-weight: 400;
+    color: #3C3C3C;
 }
 
 #footer a {
