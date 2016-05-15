@@ -598,10 +598,12 @@ h1, h2, h3, h4, h5, h6, p {
 .work-item {
     max-height: 250px;
     cursor: pointer;
+    margin: 0 12px;
     margin-bottom: 24px;
     position: relative;
     cursor: default;
     overflow: hidden;
+    border: 5px solid #fff !important;
 }
 
 .work-item img {
@@ -614,8 +616,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .work-item-inside {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;    
+    background-color: rgba(255, 255, 255, 0.9);
+    color: ##2B2B2B;    
     display: block;
     position: absolute;
     left: 0px;
@@ -1294,9 +1296,11 @@ h1, h2, h3, h4, h5, h6, p {
         .span_4,
         .services-frontend,
         .services-design,
-        .services-team,
-        .work-item {
+        .services-team {
             width:33.3333333333%;
+        }
+        .work-item {
+            width:31.2333333333%;
         }
         .span_5 {
             width:41.6666666667%;
@@ -1342,3 +1346,5 @@ h1, h2, h3, h4, h5, h6, p {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+
+
